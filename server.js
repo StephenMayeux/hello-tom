@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   res.send('Hello, Tom!')
 })
 
-const port = 3000
+const port = 8080
 app.listen(port, () => {
   console.log('App running on port', port)
 })

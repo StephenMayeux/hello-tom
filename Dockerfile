@@ -10,7 +10,7 @@ COPY package.json /usr/src/app
 RUN npm install
 
 # Bundle app code in image
-COPY ./usr/src/app
+COPY . /usr/src/app
 
 # Use our port
 EXPOSE 3000
